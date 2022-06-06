@@ -39,7 +39,7 @@
         <textarea rows="5" id="body">報告書を上司に提出。フィードバックをもらう。</textarea>
       </div>
 
-      <button type="submit" onclick="openModal()">更新</button>
+      <button type="button" onclick="openModal()">更新</button>
       <x-modal mode="更新" />
     </form>
 
