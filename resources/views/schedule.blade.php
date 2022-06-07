@@ -11,7 +11,7 @@
 <body>
   <x-header heading="スケジュール詳細" name="Axiz花子" />
   <div class="main">
-    <form class="input-form" action="mypage">
+    <form class="input-form" action="calendar">
       <div class="input-item">
         <label class="input-title">日付</label>
         <p>2022年6月1日</p>
@@ -36,7 +36,7 @@
       <a href="update" class="btn">編集</a>
       <x-modal mode="削除" />
     </form>
-    <a href="mypage" class="btn">戻る</a>
+    <a href="calendar" class="btn">戻る</a>
   </div>
 
   <footer>

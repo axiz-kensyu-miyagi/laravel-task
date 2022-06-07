@@ -17,7 +17,7 @@
   <div class="main">
     <h2>ログインIDとパスワードを入力してください</h2>
 
-    <form class="login-form" action="mypage">
+    <form class="login-form" action="calendar">
       <p class="error">エラーメッセージ</p>
       <div>
         <h3><label>ログインID</label></h3>

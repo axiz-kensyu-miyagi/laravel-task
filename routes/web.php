@@ -28,6 +28,6 @@ Route::get('/input', function () {
 Route::get('/update', function () {
     return view('update');
 });
-Route::get('/mypage', function () {
-    return view('mypage');
+Route::get('/calendar', function () {
+    return view('calendar');
 });

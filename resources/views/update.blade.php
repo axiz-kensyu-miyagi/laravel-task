@@ -12,7 +12,7 @@
   <x-header heading="スケジュール編集" name="Axiz花子" />
 
   <div class="main">
-    <form class="input-form" action="mypage">
+    <form class="input-form" action="calendar">
         <div class="input-item">
             <label class="input-title">日付</label>
             <input name="date" type="date">
@@ -43,7 +43,7 @@
       <x-modal mode="更新" />
     </form>
 
-    <a href="mypage" class="btn">戻る</a>
+    <a href="calendar" class="btn">戻る</a>
   </div>
 
   <footer>
