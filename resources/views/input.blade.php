@@ -23,12 +23,12 @@
       </div>
       <div class="input-item">
         <label class="input-title">分類</label>
-        <div class="div-radio">
-          <label><input name="category" type="radio">重要</label>
-          <label><input name="category" type="radio" checked>仕事</label>
-          <label><input name="category" type="radio">プライベート</label>
-          <label><input name="category" type="radio">メモ</label>
-        </div>
+        <select class="div-radio">
+          <label><option value="1">重要</option></label>
+          <label><option value="2">仕事</option></label>
+          <label><option value="3">プライベート</option></label>
+          <label><option value="4">メモ</option></label>
+        </select>
       </div>
       <div class="input-item">
         <label class="input-title">場所</label>
