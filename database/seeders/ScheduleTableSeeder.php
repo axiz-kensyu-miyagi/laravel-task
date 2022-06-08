@@ -18,6 +18,7 @@ class ScheduleTableSeeder extends Seeder
         DB::table('schedules')->insert([
             [
                 'category_id' => '1',
+                'user_id' => '1',
                 'title' => 'デート',
                 'place' => '那覇市久茂地レストラン',
                 'description' => '彼女と18時からフレンチレストランで記念日デート。',
@@ -25,6 +26,7 @@ class ScheduleTableSeeder extends Seeder
             ],
             [
                 'category_id' => '2',
+                'user_id' => '1',
                 'title' => '打合せ',
                 'place' => '那覇市銘苅オフィス',
                 'description' => '先方と商品開発について打合せ。',
@@ -32,6 +34,7 @@ class ScheduleTableSeeder extends Seeder
             ],
             [
                 'category_id' => '4',
+                'user_id' => '1',
                 'title' => '夕食の買い出しに行く',
                 'place' => 'スーパー',
                 'description' => '冷蔵庫が空っぽ。',

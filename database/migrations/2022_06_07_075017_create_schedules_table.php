@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('schedules', function (Blueprint $table) {
             $table->id();
             $table->integer('category_id')->nullable(false);
+            $table->integer('user_id')->nullable(false);
             $table->string('title')->nullable(false);
             $table->string('place');
             $table->string('description');
